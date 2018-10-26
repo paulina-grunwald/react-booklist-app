@@ -8,6 +8,9 @@ import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
+// Using the <Provider> component provided by the React Redux 
+//library, we gave our components the ability to be connected to the store. 
+
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <App />
