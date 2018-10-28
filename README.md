@@ -4,7 +4,7 @@
 
 ```
 > git clone https://github.com/paulina-grunwald/react-booklist-app.git
-> cd ReduxSimpleStarter
+> cd react-booklist-app
 > npm install
 > npm start
 ```
